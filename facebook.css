@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(240, 245, 247, 0.986);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+
+}
+
+.first-child{
+    font-size: 30px;
+    margin-left: 10rem;
+}
+
+.second-child{
+    width: 20rem;
+    background-color: white;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    margin-right: 10rem;
+}
+.second-child input{
+    width: 100%;
+    height: 40px;
+    padding-left: 1rem;
+}
+.log{
+    border: 1px solid white;
+    background-color: rgba(110, 110, 240, 0.945);
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+}
+.new-account{
+    border:1px solid white ;
+    background-color: rgb(40, 192, 40);
+    border-radius: 10px;
+    color: white;
+}
+.forget{
+    text-align: center;
+}
+.email{
+     border-radius: 0.5rem;
+     border-color: rgb(248, 243, 237);
+}
+.password{
+    border-radius:0.5rem;
+    border-color: rgb(248, 243, 237)
+}
